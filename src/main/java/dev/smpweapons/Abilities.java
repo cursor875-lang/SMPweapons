@@ -257,6 +257,7 @@ public final class Abilities {
          }
 
          var5.normalize();
+         final Vector slashSide = var5.clone();
          var2.playSound(var3, Sound.ENTITY_PLAYER_ATTACK_SWEEP, 2.0F, 0.6F);
          var2.playSound(var3, Sound.ITEM_TRIDENT_THROW, 1.5F, 0.6F);
          HashSet var7 = new HashSet();
@@ -268,7 +269,7 @@ public final class Abilities {
                   var8[0] = true;
                } else {
                   for(double var10 = -1.6; var10 <= 1.6; var10 += 0.2) {
-                     Location var12 = var9.clone().add(var5.clone().multiply(var10)).subtract(var4.clone().multiply(var10 * var10 * (double)0.25F));
+                     Location var12 = var9.clone().add(slashSide.clone().multiply(var10)).subtract(var4.clone().multiply(var10 * var10 * (double)0.25F));
                      var2.spawnParticle(Particle.DUST, var12, 1, (double)0.0F, (double)0.0F, (double)0.0F, (double)0.0F, BLOOD);
                   }
 
@@ -1053,7 +1054,7 @@ public final class Abilities {
                return;
             }
 
-            for (PotionEffect var5 : new ArrayList<>(var3.getActivePotionEffects())) {
+            for(PotionEffect var5 : new ArrayList<>(var3.getActivePotionEffects())) {
                var3.removePotionEffect(var5.getType());
             }
 
