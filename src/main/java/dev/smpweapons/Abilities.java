@@ -1053,7 +1053,7 @@ public final class Abilities {
                return;
             }
 
-            for(PotionEffect var5 : new ArrayList(var3.getActivePotionEffects())) {
+            for (PotionEffect var5 : new ArrayList<>(var3.getActivePotionEffects())) {
                var3.removePotionEffect(var5.getType());
             }
 
