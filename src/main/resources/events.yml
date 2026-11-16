@@ -1,6 +1,0 @@
-events:
-  enabled: true
-  gather-progress-messages: true
-  automatic-rewards: true
-  allow-events-in-protected-region: false
-  notes: Original event code and event-specific defaults are preserved; see README for limitations.

@@ -1,7 +1,0 @@
-messages:
-  prefix: '<gray>[<gradient:#a9dcbf:#ecb8cf>SMPWeapons</gradient><gray>] '
-  protected-region: <red>Abilities are disabled near the protected spawn.
-  flower-activated: <green>Flowering Sanctuary activated!
-  flower-cooldown: '<red>Flowering Sanctuary cooldown: <white>%seconds%s'
-  flower-snare: <green>Nature's Snare!
-  reload-success: <green>SMPWeapons configuration reloaded.
