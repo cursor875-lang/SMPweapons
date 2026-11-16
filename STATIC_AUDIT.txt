@@ -1,0 +1,14 @@
+SMPWEAPONS 2.0 STATIC AUDIT
+===========================
+java_sources: 20
+item_count: 23
+config_files: 8
+worldguard_dependency: True
+flower_in_enum: True
+flower_native_class: True
+spawn2_config: True
+java25_pom: True
+git_actions_ci: True
+source_syntax_parse: No syntax errors reported before missing API dependencies; Java 21 cannot compile Paper 26.3
+yaml_parse: 9/9 YAML parse OK
+compiled_jar: NOT GENERATED: JDK25, Maven, dependencies unavailable locally

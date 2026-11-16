@@ -1,0 +1,24 @@
+passives:
+  frostbite-axe:
+    slowness-chance: 0.25
+    duration-seconds: 3
+    amplifier: 1
+  abyssal-blade:
+    hit-trigger: 15
+  stormcharger:
+    hit-trigger: 10
+  windstriker:
+    hit-trigger: 10
+  horn-of-hellscorch:
+    hit-trigger: 15
+  sculk-reaper:
+    hit-trigger: 5
+  bloodmoon-katana:
+    lifesteal-fraction: 0.15
+    critical-multiplier: 1.5
+  dauntless-shield:
+    knockback-resistance: 0.45
+  oceanic-crown:
+    armor-durability-multiplier-in-water: 0.75
+  flower-sword:
+    hit-trigger: 5

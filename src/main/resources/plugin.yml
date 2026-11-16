@@ -1,0 +1,43 @@
+name: SMPWeapons
+version: '2.0.0'
+main: dev.smpweapons.SMPWeapons
+api-version: '26.3'
+description: Configurable SMP weapons, Flower Sword, events and WorldGuard protection.
+depend: [WorldGuard, WorldEdit]
+
+commands:
+  smpweaponsconfig:
+    description: Reload modular YAML config or inspect protected region.
+    usage: /smpweaponsconfig <reload|regioncheck>
+    permission: smpweapons.admin
+  smpweapons:
+    description: Give or list custom items.
+    usage: /smpweapons <give|levelup|list> [player] [item|kills]
+    aliases: [sw]
+    permission: smpweapons.admin
+  trust:
+    description: Trust a player so your abilities don't hit them.
+    usage: /trust <player>
+  untrust:
+    description: Stop trusting a player.
+    usage: /untrust <player>
+  trustlist:
+    description: List the players you trust.
+    usage: /trustlist
+  ability:
+    description: Use an ability by name (backup for the keybinds).
+    usage: /ability <name>
+  juggernaut:
+    description: Start the Juggernaut event.
+    usage: /juggernaut start <player>
+    permission: smpweapons.admin
+  weaponevent:
+    description: Start a themed event whose winner gets a custom item.
+    usage: /weaponevent <start <item> [player]|stop|list>
+    aliases: [wevent]
+    permission: smpweapons.admin
+
+permissions:
+  smpweapons.admin:
+    description: Give custom items.
+    default: op

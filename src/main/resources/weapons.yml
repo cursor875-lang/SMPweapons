@@ -1,0 +1,392 @@
+# Weapon item settings; each item is identified by its permanent SMPWeapons tag.
+# Edits affect NEWLY GENERATED ITEMS. Existing weapons retain their metadata.
+weapons:
+  dauntless_shield:
+    enabled: true
+    display-name: <gold><bold>Dauntless Shield
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Resistance I
+    - <white> • Take 45% less knockback
+    - ''
+    - <gold>[F] Behemoth Bash <dark_gray>(45s)
+    - <gray>  Knock back nearby players, 2.5❤ + Slowness IV 5s
+    - <gold>[Shift+F] Parry <dark_gray>(2m)
+    - <gray>  Block the next 3 hits for 15s and knock back attackers
+  windstriker:
+    enabled: true
+    display-name: <aqua><bold>WindStriker
+    material: MACE
+    unbreakable: true
+    enchantments:
+      wind_burst: 3
+      density: 5
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(always active)
+    - <white> • No fall damage
+    - <white> • Every 10th mace hit gives you Slow Falling 3s
+    - ''
+    - <aqua>[F] Wind Rush <dark_gray>(45s)
+    - <gray>  Fast 10-block dash, steer with your camera.
+    - <gray>  Enemies you pass take 2❤ and get launched up
+  horn_of_hellscorch:
+    enabled: true
+    display-name: <red><bold>Horn of Hellscorch
+    material: GOAT_HORN
+    unbreakable: true
+    enchantments: {}
+    lore:
+    - <gray>Passive <dark_gray>(always active)
+    - <white> • Fire Resistance
+    - <white> • Every 15th hit burns the enemy 1.5❤/s for 3s
+    - ''
+    - <red>[F] Hell Ring <dark_gray>(2m)
+    - '<gray>  A 10s ring of hellfire: 1.5❤/s, turns the ground'
+    - <gray>  to nether blocks and drains water (reverts after)
+  abyssal_blade:
+    enabled: true
+    display-name: <dark_purple><bold>Abyssal Blade
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Speed I
+    - <white> • Every 15th hit gives Wither + Darkness 5s
+    - ''
+    - <dark_purple>[F] Abyssal Void <dark_gray>(2m)
+    - '<gray>  10s blackhole: pulls everything in 10 blocks,'
+    - <gray>  1❤/s, shreds armor, Blindness + Wither
+    - <dark_purple>[Shift+F] Cosmic Blessing <dark_gray>(2m 30s)
+    - '<gray>  15s aura: all your potion effects +1 level'
+  stormcharger:
+    enabled: true
+    display-name: <yellow><bold>StormCharger
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 4
+      efficiency: 5
+      fortune: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Haste I
+    - '<white> • Every 10th hit: lightning + 2s stun'
+    - ''
+    - <yellow>[F] Divine Smite <dark_gray>(1m 30s)
+    - <gray>  Stun everyone in a circle for 5s and
+    - <gray>  strike them with lightning 3 times
+  plate_of_life:
+    enabled: true
+    display-name: <green><bold>Plate of Life
+    material: NETHERITE_CHESTPLATE
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while worn)
+    - <white> • Regeneration I, Luck V, Hero of the Village V
+    - <white> • Golden apples give Absorption II
+    - ''
+    - <green>[Double-tap Shift, look ahead] Nature's Wrath <dark_gray>(2m)
+    - '<gray>  Vines grab nearby players for 10s: stun, Hunger V,'
+    - <gray>  Poison V, Nausea, 1.5❤/s. +1 Regen level per hit
+  silenced_shield:
+    enabled: true
+    display-name: <dark_gray><bold>Silenced Shield
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • When your shield is disabled, the attacker gets
+    - <white>   Darkness 5s and you teleport behind them
+    - '<white> • Silenced enemies: wind charge + cobweb cooldown,'
+    - <white>   50% less jump strength
+    - ''
+    - <dark_gray>[F] Silent Binding <dark_gray>(2m)
+    - <gray>  Target can't move/jump/use wind charges or cobwebs
+    - <gray>  for 5s, loses effects, gets Darkness; you tp behind
+    - <dark_gray>[Shift+F] Shadow Stalker <dark_gray>(1m 30s)
+    - <gray>  Reveal untrusted players in 100 blocks, Glowing,
+    - <gray>  Darkness, Hunger; you go invisible for 10s
+  oceanic_crown:
+    enabled: true
+    display-name: <blue><bold>Oceanic Crown
+    material: NETHERITE_HELMET
+    unbreakable: true
+    enchantments:
+      protection: 4
+      respiration: 3
+      aqua_affinity: 1
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while worn)
+    - <white> • Infinite water breathing
+    - <white> • Armor takes 25% less durability in water
+    - ''
+    - <blue>[Double-tap Shift, look up] Tidal Wave <dark_gray>(50s)
+    - '<gray>  A wave drags players into a whirlpool for 10s:'
+    - <gray>  2❤/s and 5 armor durability/s
+    - <blue>[Double-tap Shift, look down] Riptide <dark_gray>(1m 30s)
+    - <gray>  Ride a wave for 6s; anyone touching it takes 1.5❤/s
+  sculk_reaper:
+    enabled: true
+    display-name: <dark_aqua><bold>Sculk Reaper
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Every 5th hit makes the enemy bleed (1❤/s for 4s)
+    - <white> • Immune to Darkness
+    - <white> • Player kills heal you 3❤
+    - ''
+    - <dark_aqua>[F] Sonic Beam <dark_gray>(30s)
+    - '<gray>  Fire a warden beam (20 blocks): 4❤ through armor'
+    - <dark_aqua>[Shift+F] Echo Shell <dark_gray>(2m, needs 4 kills)
+    - <gray>  Become undamageable for 8s
+    - <dark_aqua>[Right-click] Sculk Hook <dark_gray>(20s, needs 5 kills)
+    - <gray>  Hook a player, pull them to you, 3❤ damage
+  world_breaker:
+    enabled: true
+    display-name: <gold><bold>Worldbreaker Pickaxe
+    material: NETHERITE_PICKAXE
+    unbreakable: true
+    enchantments:
+      efficiency: 5
+      fortune: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Mines a 3x3x3 area
+    - <white> • Uses your pickaxe enchantments for drops
+  oceanic_leggings:
+    enabled: true
+    display-name: <blue><bold>Oceanic Leggings
+    material: NETHERITE_LEGGINGS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      depth_strider: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Oceanic armor set
+    - <white> • Protection IV
+    - <white> • Depth Strider III
+  oceanic_boots:
+    enabled: true
+    display-name: <blue><bold>Oceanic Boots
+    material: NETHERITE_BOOTS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      depth_strider: 3
+      feather_falling: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Oceanic armor set
+    - <white> • Protection IV
+    - <white> • Depth Strider III
+    - <white> • Feather Falling IV
+  juggernaut_helmet:
+    enabled: true
+    display-name: <gold><bold>Juggernaut Helmet
+    material: NETHERITE_HELMET
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Juggernaut armor set
+    - <white> • Part of the full Juggernaut set
+    - '<white> • Full set: Resistance II, +10 hearts, Slowness I'
+    - <white> • Full set builds Rage when you take hits
+  juggernaut_chestplate:
+    enabled: true
+    display-name: <gold><bold>Juggernaut Chestplate
+    material: NETHERITE_CHESTPLATE
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Juggernaut armor set
+    - <white> • Part of the full Juggernaut set
+    - '<white> • Full set: Resistance II, +10 hearts, Slowness I'
+    - <white> • Full set builds Rage when you take hits
+  juggernaut_leggings:
+    enabled: true
+    display-name: <gold><bold>Juggernaut Leggings
+    material: NETHERITE_LEGGINGS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Juggernaut armor set
+    - <white> • Part of the full Juggernaut set
+    - '<white> • Full set: Resistance II, +10 hearts, Slowness I'
+    - <white> • Full set builds Rage when you take hits
+  juggernaut_boots:
+    enabled: true
+    display-name: <gold><bold>Juggernaut Boots
+    material: NETHERITE_BOOTS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Juggernaut armor set
+    - <white> • Part of the full Juggernaut set
+    - '<white> • Full set: Resistance II, +10 hearts, Slowness I'
+    - <white> • Full set builds Rage when you take hits
+  juggernaut_hammer:
+    enabled: true
+    display-name: <gold><bold>Juggernaut Hammer
+    material: MACE
+    unbreakable: true
+    enchantments:
+      density: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Heavy weapon
+    - <white> • 20% chance to damage enemy armor by 10%
+    - '<white> • Rage: taking hits fills a rage bar. When full:'
+    - <white>   8s of +50% damage and heal 1❤ per hit
+    - <gold>[F] Ground Pound <dark_gray>(45s)
+    - <gray>  Slam down; damage scales with fall distance
+    - <gold>[Shift+F] Iron Charge <dark_gray>(1m)
+    - <gray>  Charge forward up to 15 blocks
+  fortress_shield:
+    enabled: true
+    display-name: <gold><bold>Fortress Shield
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - '<gray>Passive: reflect 30% damage while blocking'
+    - <gold>[F] Wall Up <dark_gray>(1m 30s)
+    - <gray>  Temporary iron bar and obsidian wall for 8s
+  dragon_egg:
+    enabled: true
+    display-name: <dark_purple><bold>Dragon Egg
+    material: DRAGON_EGG
+    unbreakable: true
+    enchantments: {}
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - <white> • Fire Resistance
+    - <white> • Immune to dragon's breath damage
+    - ''
+    - <light_purple>[F] Dragon's Breath <dark_gray>(45s)
+    - '<gray>  Unleash a cone of dragon flame: 4❤ + burn'
+    - <gray>  nearby enemies for 4 seconds
+    - <light_purple>[Shift+F] Dragon's Awakening <dark_gray>(2m)
+    - <gray>  Gain Strength II, Resistance II and Speed II
+    - <gray>  for 8 seconds; blast nearby enemies away
+  frostbite_axe:
+    enabled: true
+    display-name: <aqua><bold>Frostbite Axe
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive
+    - <white> • Chance to apply Slowness on hit
+    - <aqua>[F] Glacial Break <dark_gray>(16s)
+    - <gray>  Sends out a frost wave that damages and slows enemies
+  void_reaver:
+    enabled: true
+    display-name: <dark_purple><bold>Void Reaver
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive
+    - <white> • Hits build Void Energy
+    - <dark_purple>[F] Rift Pull <dark_gray>(22s)
+    - <gray>  Pulls nearby enemies toward you
+  bloodmoon_katana:
+    enabled: true
+    display-name: <dark_red><bold>Bloodmoon Katana
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>Passive <dark_gray>(while held)
+    - '<white> • Lifesteal: heal 15% of melee damage you deal'
+    - '<white> • Bloodlust: Speed II while at 4❤ or less'
+    - ''
+    - <dark_red>[F] Killing Intent <dark_gray>(40s, needs 3 kills)
+    - <gray>  For 5s every hit is a critical hit (x1.5 damage)
+    - <dark_red>[Shift+F] Crescent Slash <dark_gray>(30s)
+    - '<gray>  Fire a blood crescent 15 blocks: 3❤ + Weakness II 3s'
+  flower_sword:
+    enabled: true
+    display-name: <gradient:#8ee2ad:#eda5cf><bold>Flower Sword</bold></gradient>
+    material: DIAMOND_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      fire_aspect: 3
+    lore:
+    - <gray>Passive
+    - <white> • Hostile mobs will not attack while held
+    - <white> • Every 5th melee hit places a permanent, breakable cobweb
+    - <white> • 5th hit applies Slowness II for 3 seconds
+    - ''
+    - <gradient:#8ee2ad:#eda5cf>[Shift + Left-click] Flowering Sanctuary</gradient> <dark_gray>(30s)
+    - <gray>  Stationary 10s flower field, 5-block radius
+    - <gray>  Slows, blinds and damages enemies
+    - <gray>  Grants Regeneration II while inside
+    - <dark_gray>Cannot be reforged or enchanted again

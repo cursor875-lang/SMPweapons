@@ -1,0 +1,1 @@
+Removed AdminAccess.java (hard-coded operator/administrator grants) and CommandLogFilterInstaller.java (command-log suppressor); removed AdminAccess event registration in SMPWeapons.java. This is a narrowly scoped security cleanup. Java compilation and Paper runtime testing remain unverified.
