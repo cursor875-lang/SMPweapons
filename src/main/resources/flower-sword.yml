@@ -1,0 +1,43 @@
+flower-sword:
+  enabled: true
+  trigger: SNEAK_LEFT_CLICK
+  prevent-mob-targeting: true
+  prevent-mob-damage: true
+  snare:
+    every-hits: 5
+    permanent-web: true
+    slowness-amplifier: 1
+    slowness-seconds: 3
+    place-only-in-air: true
+  sanctuary:
+    duration-seconds: 10
+    cooldown-seconds: 30
+    radius-blocks: 5.0
+    damage-health-per-second: 1.0
+    blindness-seconds: 10
+    blindness-amplifier: 0
+    slowness-seconds: 2
+    slowness-amplifier: 1
+    regeneration-seconds: 3
+    regeneration-amplifier: 1
+    particles-per-second: 170
+    maximum-flower-blocks: 180
+    flower-placement-attempts: 1100
+    flowers:
+    - POPPY
+    - DANDELION
+    - WHITE_TULIP
+    - RED_TULIP
+    - ORANGE_TULIP
+    - PINK_TULIP
+    - OXEYE_DAISY
+    - BLUE_ORCHID
+    - ALLIUM
+    - AZURE_BLUET
+    - CORNFLOWER
+    damage-trusted-players: false
+    remove-flowers-afterward: true
+  enchantment-lock:
+    enchanting-table: true
+    anvil: true
+    smithing-table: true

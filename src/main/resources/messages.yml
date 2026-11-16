@@ -1,0 +1,3 @@
+messages:
+  # MiniMessage. A double-chevron arrow, matching the Skript-style prefix, like a Skript chat prefix.
+  prefix: '<dark_gray>[<light_purple>ꜱᴍᴘᴡᴇᴀᴘᴏɴꜱ<dark_gray>] <gray>» <white>'

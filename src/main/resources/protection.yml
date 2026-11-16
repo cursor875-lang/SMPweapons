@@ -1,0 +1,16 @@
+protection:
+  enabled: true
+  # Informational name only. ALL named WorldGuard regions are protected automatically.
+  spawn-region-label: Innerspawn
+  protect-all-named-regions: true
+  fail-closed-if-worldguard-unavailable: true
+  block-abilities-starting-inside: true
+  cancel-damage-inside: true
+  cancel-harmful-potions-inside: true
+  block-custom-block-changes: true
+  respect-all-worldguard-build-flags: true
+  block-ability-push-into-region: true
+  block-ability-teleport-into-region: true
+  guard-projectile-hits: true
+  cancel-explosions-in-region: true
+  remove-negative-effects-on-entry: true

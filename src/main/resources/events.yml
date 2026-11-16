@@ -1,0 +1,11 @@
+events:
+  enabled: true
+  gather-progress-messages: true
+  automatic-rewards: true
+  allow-events-in-protected-region: false
+  bloomhunt:
+    enabled: true
+    countdown-seconds: 10
+    roll-steps: 16
+    # Set to a custom item id (for example flower_sword) to give the winner a prize.
+    reward-item: ''

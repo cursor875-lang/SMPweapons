@@ -1,0 +1,138 @@
+# Cooldowns are wired through Cooldowns.java.
+# Additional values are exposed to tuning; see README for which are implemented.
+abilities:
+  behemoth_bash:
+    enabled: true
+    cooldown-seconds: 45
+    damage-health: 5.0
+    radius: 6.0
+    slowness-seconds: 5
+  parry:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 15
+    blocked-hits: 3
+  wind_rush:
+    enabled: true
+    cooldown-seconds: 45
+    range-blocks: 10
+    damage-health: 4.0
+  hell_ring:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 10
+    radius: 8
+    damage-health: 3.0
+    world-changes-enabled: true
+  abyssal_void:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 10
+    radius: 10
+    damage-health: 2.0
+  cosmic_blessing:
+    enabled: true
+    cooldown-seconds: 150
+    duration-seconds: 15
+  divine_smite:
+    enabled: true
+    cooldown-seconds: 90
+    radius: 7
+    damage-health: 5.0
+    stun-seconds: 5
+  natures_wrath:
+    enabled: true
+    cooldown-seconds: 120
+    radius: 8
+    damage-health: 3.0
+    duration-seconds: 10
+  silent_binding:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 5
+  shadow_stalker:
+    enabled: true
+    cooldown-seconds: 90
+    radius: 100
+    duration-seconds: 10
+  tidal_wave:
+    enabled: true
+    cooldown-seconds: 50
+  riptide:
+    enabled: true
+    cooldown-seconds: 90
+  sonic_beam:
+    enabled: true
+    cooldown-seconds: 30
+    damage-health: 8.0
+    range-blocks: 20
+  echo_shell:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 8
+  sculk_hook:
+    enabled: true
+    cooldown-seconds: 20
+    damage-health: 6.0
+    range-blocks: 25
+    pull-strength: 2.5
+  sculk_hook_miss:
+    enabled: true
+    cooldown-seconds: 3
+  dragons_breath:
+    enabled: true
+    cooldown-seconds: 45
+    damage-health: 8.0
+    range-blocks: 8
+    burn-seconds: 4
+  dragons_awakening:
+    enabled: true
+    cooldown-seconds: 120
+    duration-seconds: 8
+    radius: 6.0
+    damage-health: 4.0
+  glacial_break:
+    enabled: true
+    cooldown-seconds: 16
+    damage-health: 4.0
+    target-radius: 1.7
+    range-blocks: 9
+    slowness-seconds: 4
+  rift_pull:
+    enabled: true
+    cooldown-seconds: 22
+    damage-health-base: 2.0
+    radius: 7.0
+    pull-strength: 1.0
+  killing_intent:
+    enabled: true
+    cooldown-seconds: 40
+    duration-seconds: 5
+  crescent_slash:
+    enabled: true
+    cooldown-seconds: 30
+    damage-health: 6.0
+    range-blocks: 15
+    weakness-seconds: 3
+  groundpound:
+    enabled: true
+    cooldown-seconds: 45
+    radius: 6
+    damage-health-max: 16.0
+  ironcharge:
+    enabled: true
+    cooldown-seconds: 60
+    range-blocks: 15
+  earthquake:
+    enabled: true
+    cooldown-seconds: 60
+    radius: 7
+  unstoppable:
+    enabled: true
+    cooldown-seconds: 120
+  wallup:
+    enabled: true
+    cooldown-seconds: 90
+    duration-seconds: 8
+    width: 5
+    height: 3

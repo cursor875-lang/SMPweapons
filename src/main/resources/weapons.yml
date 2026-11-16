@@ -1,0 +1,392 @@
+# Weapon item settings; each item is identified by its permanent SMPWeapons tag.
+# Edits affect NEWLY GENERATED ITEMS. Existing weapons retain their metadata.
+weapons:
+  dauntless_shield:
+    enabled: true
+    display-name: <gold><bold>ᴅᴀᴜɴᴛʟᴇꜱꜱ ꜱʜɪᴇʟᴅ
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪ
+    - <white> • ᴛᴀᴋᴇ 45% ʟᴇꜱꜱ ᴋɴᴏᴄᴋʙᴀᴄᴋ
+    - ''
+    - <gold>[ꜰ] ʙᴇʜᴇᴍᴏᴛʜ ʙᴀꜱʜ <dark_gray>(45ꜱ)
+    - <gray>  ᴋɴᴏᴄᴋ ʙᴀᴄᴋ ɴᴇᴀʀʙʏ ᴘʟᴀʏᴇʀꜱ, 2.5❤ + ꜱʟᴏᴡɴᴇꜱꜱ ɪᴠ 5ꜱ
+    - <gold>[ꜱʜɪꜰᴛ+ꜰ] ᴘᴀʀʀʏ <dark_gray>(2ᴍ)
+    - <gray>  ʙʟᴏᴄᴋ ᴛʜᴇ ɴᴇxᴛ 3 ʜɪᴛꜱ ꜰᴏʀ 15ꜱ ᴀɴᴅ ᴋɴᴏᴄᴋ ʙᴀᴄᴋ ᴀᴛᴛᴀᴄᴋᴇʀꜱ
+  windstriker:
+    enabled: true
+    display-name: <aqua><bold>ᴡɪɴᴅꜱᴛʀɪᴋᴇʀ
+    material: MACE
+    unbreakable: true
+    enchantments:
+      wind_burst: 3
+      density: 5
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴀʟᴡᴀʏꜱ ᴀᴄᴛɪᴠᴇ)
+    - <white> • ɴᴏ ꜰᴀʟʟ ᴅᴀᴍᴀɢᴇ
+    - <white> • ᴇᴠᴇʀʏ 10ᴛʜ ᴍᴀᴄᴇ ʜɪᴛ ɢɪᴠᴇꜱ ʏᴏᴜ ꜱʟᴏᴡ ꜰᴀʟʟɪɴɢ 3ꜱ
+    - ''
+    - <aqua>[ꜰ] ᴡɪɴᴅ ʀᴜꜱʜ <dark_gray>(45ꜱ)
+    - <gray>  ꜰᴀꜱᴛ 10-ʙʟᴏᴄᴋ ᴅᴀꜱʜ, ꜱᴛᴇᴇʀ ᴡɪᴛʜ ʏᴏᴜʀ ᴄᴀᴍᴇʀᴀ.
+    - <gray>  ᴇɴᴇᴍɪᴇꜱ ʏᴏᴜ ᴘᴀꜱꜱ ᴛᴀᴋᴇ 2❤ ᴀɴᴅ ɢᴇᴛ ʟᴀᴜɴᴄʜᴇᴅ ᴜᴘ
+  horn_of_hellscorch:
+    enabled: true
+    display-name: <red><bold>ʜᴏʀɴ ᴏꜰ ʜᴇʟʟꜱᴄᴏʀᴄʜ
+    material: GOAT_HORN
+    unbreakable: true
+    enchantments: {}
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴀʟᴡᴀʏꜱ ᴀᴄᴛɪᴠᴇ)
+    - <white> • ꜰɪʀᴇ ʀᴇꜱɪꜱᴛᴀɴᴄᴇ
+    - <white> • ᴇᴠᴇʀʏ 15ᴛʜ ʜɪᴛ ʙᴜʀɴꜱ ᴛʜᴇ ᴇɴᴇᴍʏ 1.5❤/ꜱ ꜰᴏʀ 3ꜱ
+    - ''
+    - <red>[ꜰ] ʜᴇʟʟ ʀɪɴɢ <dark_gray>(2ᴍ)
+    - '<gray>  ᴀ 10ꜱ ʀɪɴɢ ᴏꜰ ʜᴇʟʟꜰɪʀᴇ: 1.5❤/ꜱ, ᴛᴜʀɴꜱ ᴛʜᴇ ɢʀᴏᴜɴᴅ'
+    - <gray>  ᴛᴏ ɴᴇᴛʜᴇʀ ʙʟᴏᴄᴋꜱ ᴀɴᴅ ᴅʀᴀɪɴꜱ ᴡᴀᴛᴇʀ (ʀᴇᴠᴇʀᴛꜱ ᴀꜰᴛᴇʀ)
+  abyssal_blade:
+    enabled: true
+    display-name: <dark_purple><bold>ᴀʙʏꜱꜱᴀʟ ʙʟᴀᴅᴇ
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ꜱᴘᴇᴇᴅ ɪ
+    - <white> • ᴇᴠᴇʀʏ 15ᴛʜ ʜɪᴛ ɢɪᴠᴇꜱ ᴡɪᴛʜᴇʀ + ᴅᴀʀᴋɴᴇꜱꜱ 5ꜱ
+    - ''
+    - <dark_purple>[ꜰ] ᴀʙʏꜱꜱᴀʟ ᴠᴏɪᴅ <dark_gray>(2ᴍ)
+    - '<gray>  10ꜱ ʙʟᴀᴄᴋʜᴏʟᴇ: ᴘᴜʟʟꜱ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪɴ 10 ʙʟᴏᴄᴋꜱ,'
+    - <gray>  1❤/ꜱ, ꜱʜʀᴇᴅꜱ ᴀʀᴍᴏʀ, ʙʟɪɴᴅɴᴇꜱꜱ + ᴡɪᴛʜᴇʀ
+    - <dark_purple>[ꜱʜɪꜰᴛ+ꜰ] ᴄᴏꜱᴍɪᴄ ʙʟᴇꜱꜱɪɴɢ <dark_gray>(2ᴍ 30ꜱ)
+    - '<gray>  15ꜱ ᴀᴜʀᴀ: ᴀʟʟ ʏᴏᴜʀ ᴘᴏᴛɪᴏɴ ᴇꜰꜰᴇᴄᴛꜱ +1 ʟᴇᴠᴇʟ'
+  stormcharger:
+    enabled: true
+    display-name: <yellow><bold>ꜱᴛᴏʀᴍᴄʜᴀʀɢᴇʀ
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 4
+      efficiency: 5
+      fortune: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ʜᴀꜱᴛᴇ ɪ
+    - '<white> • ᴇᴠᴇʀʏ 10ᴛʜ ʜɪᴛ: ʟɪɢʜᴛɴɪɴɢ + 2ꜱ ꜱᴛᴜɴ'
+    - ''
+    - <yellow>[ꜰ] ᴅɪᴠɪɴᴇ ꜱᴍɪᴛᴇ <dark_gray>(1ᴍ 30ꜱ)
+    - <gray>  ꜱᴛᴜɴ ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴀ ᴄɪʀᴄʟᴇ ꜰᴏʀ 5ꜱ ᴀɴᴅ
+    - <gray>  ꜱᴛʀɪᴋᴇ ᴛʜᴇᴍ ᴡɪᴛʜ ʟɪɢʜᴛɴɪɴɢ 3 ᴛɪᴍᴇꜱ
+  plate_of_life:
+    enabled: true
+    display-name: <green><bold>ᴘʟᴀᴛᴇ ᴏꜰ ʟɪꜰᴇ
+    material: NETHERITE_CHESTPLATE
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ᴡᴏʀɴ)
+    - <white> • ʀᴇɢᴇɴᴇʀᴀᴛɪᴏɴ ɪ, ʟᴜᴄᴋ ᴠ, ʜᴇʀᴏ ᴏꜰ ᴛʜᴇ ᴠɪʟʟᴀɢᴇ ᴠ
+    - <white> • ɢᴏʟᴅᴇɴ ᴀᴘᴘʟᴇꜱ ɢɪᴠᴇ ᴀʙꜱᴏʀᴘᴛɪᴏɴ ɪɪ
+    - ''
+    - <green>[ᴅᴏᴜʙʟᴇ-ᴛᴀᴘ ꜱʜɪꜰᴛ, ʟᴏᴏᴋ ᴀʜᴇᴀᴅ] ɴᴀᴛᴜʀᴇ'ꜱ ᴡʀᴀᴛʜ <dark_gray>(2ᴍ)
+    - '<gray>  ᴠɪɴᴇꜱ ɢʀᴀʙ ɴᴇᴀʀʙʏ ᴘʟᴀʏᴇʀꜱ ꜰᴏʀ 10ꜱ: ꜱᴛᴜɴ, ʜᴜɴɢᴇʀ ᴠ,'
+    - <gray>  ᴘᴏɪꜱᴏɴ ᴠ, ɴᴀᴜꜱᴇᴀ, 1.5❤/ꜱ. +1 ʀᴇɢᴇɴ ʟᴇᴠᴇʟ ᴘᴇʀ ʜɪᴛ
+  silenced_shield:
+    enabled: true
+    display-name: <dark_gray><bold>ꜱɪʟᴇɴᴄᴇᴅ ꜱʜɪᴇʟᴅ
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ᴡʜᴇɴ ʏᴏᴜʀ ꜱʜɪᴇʟᴅ ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ, ᴛʜᴇ ᴀᴛᴛᴀᴄᴋᴇʀ ɢᴇᴛꜱ
+    - <white>   ᴅᴀʀᴋɴᴇꜱꜱ 5ꜱ ᴀɴᴅ ʏᴏᴜ ᴛᴇʟᴇᴘᴏʀᴛ ʙᴇʜɪɴᴅ ᴛʜᴇᴍ
+    - '<white> • ꜱɪʟᴇɴᴄᴇᴅ ᴇɴᴇᴍɪᴇꜱ: ᴡɪɴᴅ ᴄʜᴀʀɢᴇ + ᴄᴏʙᴡᴇʙ ᴄᴏᴏʟᴅᴏᴡɴ,'
+    - <white>   50% ʟᴇꜱꜱ ᴊᴜᴍᴘ ꜱᴛʀᴇɴɢᴛʜ
+    - ''
+    - <dark_gray>[ꜰ] ꜱɪʟᴇɴᴛ ʙɪɴᴅɪɴɢ <dark_gray>(2ᴍ)
+    - <gray>  ᴛᴀʀɢᴇᴛ ᴄᴀɴ'ᴛ ᴍᴏᴠᴇ/ᴊᴜᴍᴘ/ᴜꜱᴇ ᴡɪɴᴅ ᴄʜᴀʀɢᴇꜱ ᴏʀ ᴄᴏʙᴡᴇʙꜱ
+    - <gray>  ꜰᴏʀ 5ꜱ, ʟᴏꜱᴇꜱ ᴇꜰꜰᴇᴄᴛꜱ, ɢᴇᴛꜱ ᴅᴀʀᴋɴᴇꜱꜱ; ʏᴏᴜ ᴛᴘ ʙᴇʜɪɴᴅ
+    - <dark_gray>[ꜱʜɪꜰᴛ+ꜰ] ꜱʜᴀᴅᴏᴡ ꜱᴛᴀʟᴋᴇʀ <dark_gray>(1ᴍ 30ꜱ)
+    - <gray>  ʀᴇᴠᴇᴀʟ ᴜɴᴛʀᴜꜱᴛᴇᴅ ᴘʟᴀʏᴇʀꜱ ɪɴ 100 ʙʟᴏᴄᴋꜱ, ɢʟᴏᴡɪɴɢ,
+    - <gray>  ᴅᴀʀᴋɴᴇꜱꜱ, ʜᴜɴɢᴇʀ; ʏᴏᴜ ɢᴏ ɪɴᴠɪꜱɪʙʟᴇ ꜰᴏʀ 10ꜱ
+  oceanic_crown:
+    enabled: true
+    display-name: <blue><bold>ᴏᴄᴇᴀɴɪᴄ ᴄʀᴏᴡɴ
+    material: NETHERITE_HELMET
+    unbreakable: true
+    enchantments:
+      protection: 4
+      respiration: 3
+      aqua_affinity: 1
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ᴡᴏʀɴ)
+    - <white> • ɪɴꜰɪɴɪᴛᴇ ᴡᴀᴛᴇʀ ʙʀᴇᴀᴛʜɪɴɢ
+    - <white> • ᴀʀᴍᴏʀ ᴛᴀᴋᴇꜱ 25% ʟᴇꜱꜱ ᴅᴜʀᴀʙɪʟɪᴛʏ ɪɴ ᴡᴀᴛᴇʀ
+    - ''
+    - <blue>[ᴅᴏᴜʙʟᴇ-ᴛᴀᴘ ꜱʜɪꜰᴛ, ʟᴏᴏᴋ ᴜᴘ] ᴛɪᴅᴀʟ ᴡᴀᴠᴇ <dark_gray>(50ꜱ)
+    - '<gray>  ᴀ ᴡᴀᴠᴇ ᴅʀᴀɢꜱ ᴘʟᴀʏᴇʀꜱ ɪɴᴛᴏ ᴀ ᴡʜɪʀʟᴘᴏᴏʟ ꜰᴏʀ 10ꜱ:'
+    - <gray>  2❤/ꜱ ᴀɴᴅ 5 ᴀʀᴍᴏʀ ᴅᴜʀᴀʙɪʟɪᴛʏ/ꜱ
+    - <blue>[ᴅᴏᴜʙʟᴇ-ᴛᴀᴘ ꜱʜɪꜰᴛ, ʟᴏᴏᴋ ᴅᴏᴡɴ] ʀɪᴘᴛɪᴅᴇ <dark_gray>(1ᴍ 30ꜱ)
+    - <gray>  ʀɪᴅᴇ ᴀ ᴡᴀᴠᴇ ꜰᴏʀ 6ꜱ; ᴀɴʏᴏɴᴇ ᴛᴏᴜᴄʜɪɴɢ ɪᴛ ᴛᴀᴋᴇꜱ 1.5❤/ꜱ
+  sculk_reaper:
+    enabled: true
+    display-name: <dark_aqua><bold>ꜱᴄᴜʟᴋ ʀᴇᴀᴘᴇʀ
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ᴇᴠᴇʀʏ 5ᴛʜ ʜɪᴛ ᴍᴀᴋᴇꜱ ᴛʜᴇ ᴇɴᴇᴍʏ ʙʟᴇᴇᴅ (1❤/ꜱ ꜰᴏʀ 4ꜱ)
+    - <white> • ɪᴍᴍᴜɴᴇ ᴛᴏ ᴅᴀʀᴋɴᴇꜱꜱ
+    - <white> • ᴘʟᴀʏᴇʀ ᴋɪʟʟꜱ ʜᴇᴀʟ ʏᴏᴜ 3❤
+    - ''
+    - <dark_aqua>[ꜰ] ꜱᴏɴɪᴄ ʙᴇᴀᴍ <dark_gray>(30ꜱ)
+    - '<gray>  ꜰɪʀᴇ ᴀ ᴡᴀʀᴅᴇɴ ʙᴇᴀᴍ (20 ʙʟᴏᴄᴋꜱ): 4❤ ᴛʜʀᴏᴜɢʜ ᴀʀᴍᴏʀ'
+    - <dark_aqua>[ꜱʜɪꜰᴛ+ꜰ] ᴇᴄʜᴏ ꜱʜᴇʟʟ <dark_gray>(2ᴍ, ɴᴇᴇᴅꜱ 4 ᴋɪʟʟꜱ)
+    - <gray>  ʙᴇᴄᴏᴍᴇ ᴜɴᴅᴀᴍᴀɢᴇᴀʙʟᴇ ꜰᴏʀ 8ꜱ
+    - <dark_aqua>[ʀɪɢʜᴛ-ᴄʟɪᴄᴋ] ꜱᴄᴜʟᴋ ʜᴏᴏᴋ <dark_gray>(20ꜱ, ɴᴇᴇᴅꜱ 5 ᴋɪʟʟꜱ)
+    - <gray>  ʜᴏᴏᴋ ᴀ ᴘʟᴀʏᴇʀ, ᴘᴜʟʟ ᴛʜᴇᴍ ᴛᴏ ʏᴏᴜ, 3❤ ᴅᴀᴍᴀɢᴇ
+  world_breaker:
+    enabled: true
+    display-name: <gold><bold>ᴡᴏʀʟᴅʙʀᴇᴀᴋᴇʀ ᴘɪᴄᴋᴀxᴇ
+    material: NETHERITE_PICKAXE
+    unbreakable: true
+    enchantments:
+      efficiency: 5
+      fortune: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ᴍɪɴᴇꜱ ᴀ 3x3x3 ᴀʀᴇᴀ
+    - <white> • ᴜꜱᴇꜱ ʏᴏᴜʀ ᴘɪᴄᴋᴀxᴇ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛꜱ ꜰᴏʀ ᴅʀᴏᴘꜱ
+  oceanic_leggings:
+    enabled: true
+    display-name: <blue><bold>ᴏᴄᴇᴀɴɪᴄ ʟᴇɢɢɪɴɢꜱ
+    material: NETHERITE_LEGGINGS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      depth_strider: 3
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴏᴄᴇᴀɴɪᴄ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪᴠ
+    - <white> • ᴅᴇᴘᴛʜ ꜱᴛʀɪᴅᴇʀ ɪɪɪ
+  oceanic_boots:
+    enabled: true
+    display-name: <blue><bold>ᴏᴄᴇᴀɴɪᴄ ʙᴏᴏᴛꜱ
+    material: NETHERITE_BOOTS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      depth_strider: 3
+      feather_falling: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴏᴄᴇᴀɴɪᴄ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪᴠ
+    - <white> • ᴅᴇᴘᴛʜ ꜱᴛʀɪᴅᴇʀ ɪɪɪ
+    - <white> • ꜰᴇᴀᴛʜᴇʀ ꜰᴀʟʟɪɴɢ ɪᴠ
+  juggernaut_helmet:
+    enabled: true
+    display-name: <gold><bold>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ʜᴇʟᴍᴇᴛ
+    material: NETHERITE_HELMET
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ꜰᴜʟʟ ᴊᴜɢɢᴇʀɴᴀᴜᴛ ꜱᴇᴛ
+    - '<white> • ꜰᴜʟʟ ꜱᴇᴛ: ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪɪ, +10 ʜᴇᴀʀᴛꜱ, ꜱʟᴏᴡɴᴇꜱꜱ ɪ'
+    - <white> • ꜰᴜʟʟ ꜱᴇᴛ ʙᴜɪʟᴅꜱ ʀᴀɢᴇ ᴡʜᴇɴ ʏᴏᴜ ᴛᴀᴋᴇ ʜɪᴛꜱ
+  juggernaut_chestplate:
+    enabled: true
+    display-name: <gold><bold>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ᴄʜᴇꜱᴛᴘʟᴀᴛᴇ
+    material: NETHERITE_CHESTPLATE
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ꜰᴜʟʟ ᴊᴜɢɢᴇʀɴᴀᴜᴛ ꜱᴇᴛ
+    - '<white> • ꜰᴜʟʟ ꜱᴇᴛ: ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪɪ, +10 ʜᴇᴀʀᴛꜱ, ꜱʟᴏᴡɴᴇꜱꜱ ɪ'
+    - <white> • ꜰᴜʟʟ ꜱᴇᴛ ʙᴜɪʟᴅꜱ ʀᴀɢᴇ ᴡʜᴇɴ ʏᴏᴜ ᴛᴀᴋᴇ ʜɪᴛꜱ
+  juggernaut_leggings:
+    enabled: true
+    display-name: <gold><bold>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ʟᴇɢɢɪɴɢꜱ
+    material: NETHERITE_LEGGINGS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ꜰᴜʟʟ ᴊᴜɢɢᴇʀɴᴀᴜᴛ ꜱᴇᴛ
+    - '<white> • ꜰᴜʟʟ ꜱᴇᴛ: ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪɪ, +10 ʜᴇᴀʀᴛꜱ, ꜱʟᴏᴡɴᴇꜱꜱ ɪ'
+    - <white> • ꜰᴜʟʟ ꜱᴇᴛ ʙᴜɪʟᴅꜱ ʀᴀɢᴇ ᴡʜᴇɴ ʏᴏᴜ ᴛᴀᴋᴇ ʜɪᴛꜱ
+  juggernaut_boots:
+    enabled: true
+    display-name: <gold><bold>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ʙᴏᴏᴛꜱ
+    material: NETHERITE_BOOTS
+    unbreakable: true
+    enchantments:
+      protection: 4
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ᴀʀᴍᴏʀ ꜱᴇᴛ
+    - <white> • ᴘᴀʀᴛ ᴏꜰ ᴛʜᴇ ꜰᴜʟʟ ᴊᴜɢɢᴇʀɴᴀᴜᴛ ꜱᴇᴛ
+    - '<white> • ꜰᴜʟʟ ꜱᴇᴛ: ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪɪ, +10 ʜᴇᴀʀᴛꜱ, ꜱʟᴏᴡɴᴇꜱꜱ ɪ'
+    - <white> • ꜰᴜʟʟ ꜱᴇᴛ ʙᴜɪʟᴅꜱ ʀᴀɢᴇ ᴡʜᴇɴ ʏᴏᴜ ᴛᴀᴋᴇ ʜɪᴛꜱ
+  juggernaut_hammer:
+    enabled: true
+    display-name: <gold><bold>ᴊᴜɢɢᴇʀɴᴀᴜᴛ ʜᴀᴍᴍᴇʀ
+    material: MACE
+    unbreakable: true
+    enchantments:
+      density: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ʜᴇᴀᴠʏ ᴡᴇᴀᴘᴏɴ
+    - <white> • 20% ᴄʜᴀɴᴄᴇ ᴛᴏ ᴅᴀᴍᴀɢᴇ ᴇɴᴇᴍʏ ᴀʀᴍᴏʀ ʙʏ 10%
+    - '<white> • ʀᴀɢᴇ: ᴛᴀᴋɪɴɢ ʜɪᴛꜱ ꜰɪʟʟꜱ ᴀ ʀᴀɢᴇ ʙᴀʀ. ᴡʜᴇɴ ꜰᴜʟʟ:'
+    - <white>   8ꜱ ᴏꜰ +50% ᴅᴀᴍᴀɢᴇ ᴀɴᴅ ʜᴇᴀʟ 1❤ ᴘᴇʀ ʜɪᴛ
+    - <gold>[ꜰ] ɢʀᴏᴜɴᴅ ᴘᴏᴜɴᴅ <dark_gray>(45ꜱ)
+    - <gray>  ꜱʟᴀᴍ ᴅᴏᴡɴ; ᴅᴀᴍᴀɢᴇ ꜱᴄᴀʟᴇꜱ ᴡɪᴛʜ ꜰᴀʟʟ ᴅɪꜱᴛᴀɴᴄᴇ
+    - <gold>[ꜱʜɪꜰᴛ+ꜰ] ɪʀᴏɴ ᴄʜᴀʀɢᴇ <dark_gray>(1ᴍ)
+    - <gray>  ᴄʜᴀʀɢᴇ ꜰᴏʀᴡᴀʀᴅ ᴜᴘ ᴛᴏ 15 ʙʟᴏᴄᴋꜱ
+  fortress_shield:
+    enabled: true
+    display-name: <gold><bold>ꜰᴏʀᴛʀᴇꜱꜱ ꜱʜɪᴇʟᴅ
+    material: SHIELD
+    unbreakable: true
+    enchantments:
+      unbreaking: 3
+      mending: 1
+    lore:
+    - '<gray>ᴘᴀꜱꜱɪᴠᴇ: ʀᴇꜰʟᴇᴄᴛ 30% ᴅᴀᴍᴀɢᴇ ᴡʜɪʟᴇ ʙʟᴏᴄᴋɪɴɢ'
+    - <gold>[ꜰ] ᴡᴀʟʟ ᴜᴘ <dark_gray>(1ᴍ 30ꜱ)
+    - <gray>  ᴛᴇᴍᴘᴏʀᴀʀʏ ɪʀᴏɴ ʙᴀʀ ᴀɴᴅ ᴏʙꜱɪᴅɪᴀɴ ᴡᴀʟʟ ꜰᴏʀ 8ꜱ
+  dragon_egg:
+    enabled: true
+    display-name: <dark_purple><bold>ᴅʀᴀɢᴏɴ ᴇɢɢ
+    material: DRAGON_EGG
+    unbreakable: true
+    enchantments: {}
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - <white> • ꜰɪʀᴇ ʀᴇꜱɪꜱᴛᴀɴᴄᴇ
+    - <white> • ɪᴍᴍᴜɴᴇ ᴛᴏ ᴅʀᴀɢᴏɴ'ꜱ ʙʀᴇᴀᴛʜ ᴅᴀᴍᴀɢᴇ
+    - ''
+    - <light_purple>[ꜰ] ᴅʀᴀɢᴏɴ'ꜱ ʙʀᴇᴀᴛʜ <dark_gray>(45ꜱ)
+    - '<gray>  ᴜɴʟᴇᴀꜱʜ ᴀ ᴄᴏɴᴇ ᴏꜰ ᴅʀᴀɢᴏɴ ꜰʟᴀᴍᴇ: 4❤ + ʙᴜʀɴ'
+    - <gray>  ɴᴇᴀʀʙʏ ᴇɴᴇᴍɪᴇꜱ ꜰᴏʀ 4 ꜱᴇᴄᴏɴᴅꜱ
+    - <light_purple>[ꜱʜɪꜰᴛ+ꜰ] ᴅʀᴀɢᴏɴ'ꜱ ᴀᴡᴀᴋᴇɴɪɴɢ <dark_gray>(2ᴍ)
+    - <gray>  ɢᴀɪɴ ꜱᴛʀᴇɴɢᴛʜ ɪɪ, ʀᴇꜱɪꜱᴛᴀɴᴄᴇ ɪɪ ᴀɴᴅ ꜱᴘᴇᴇᴅ ɪɪ
+    - <gray>  ꜰᴏʀ 8 ꜱᴇᴄᴏɴᴅꜱ; ʙʟᴀꜱᴛ ɴᴇᴀʀʙʏ ᴇɴᴇᴍɪᴇꜱ ᴀᴡᴀʏ
+  frostbite_axe:
+    enabled: true
+    display-name: <aqua><bold>ꜰʀᴏꜱᴛʙɪᴛᴇ ᴀxᴇ
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ
+    - <white> • ᴄʜᴀɴᴄᴇ ᴛᴏ ᴀᴘᴘʟʏ ꜱʟᴏᴡɴᴇꜱꜱ ᴏɴ ʜɪᴛ
+    - <aqua>[ꜰ] ɢʟᴀᴄɪᴀʟ ʙʀᴇᴀᴋ <dark_gray>(16ꜱ)
+    - <gray>  ꜱᴇɴᴅꜱ ᴏᴜᴛ ᴀ ꜰʀᴏꜱᴛ ᴡᴀᴠᴇ ᴛʜᴀᴛ ᴅᴀᴍᴀɢᴇꜱ ᴀɴᴅ ꜱʟᴏᴡꜱ ᴇɴᴇᴍɪᴇꜱ
+  void_reaver:
+    enabled: true
+    display-name: <dark_purple><bold>ᴠᴏɪᴅ ʀᴇᴀᴠᴇʀ
+    material: NETHERITE_AXE
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ
+    - <white> • ʜɪᴛꜱ ʙᴜɪʟᴅ ᴠᴏɪᴅ ᴇɴᴇʀɢʏ
+    - <dark_purple>[ꜰ] ʀɪꜰᴛ ᴘᴜʟʟ <dark_gray>(22ꜱ)
+    - <gray>  ᴘᴜʟʟꜱ ɴᴇᴀʀʙʏ ᴇɴᴇᴍɪᴇꜱ ᴛᴏᴡᴀʀᴅ ʏᴏᴜ
+  bloodmoon_katana:
+    enabled: true
+    display-name: <dark_red><bold>ʙʟᴏᴏᴅᴍᴏᴏɴ ᴋᴀᴛᴀɴᴀ
+    material: NETHERITE_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      looting: 3
+      sweeping_edge: 3
+      fire_aspect: 2
+      unbreaking: 3
+      mending: 1
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ <dark_gray>(ᴡʜɪʟᴇ ʜᴇʟᴅ)
+    - '<white> • ʟɪꜰᴇꜱᴛᴇᴀʟ: ʜᴇᴀʟ 15% ᴏꜰ ᴍᴇʟᴇᴇ ᴅᴀᴍᴀɢᴇ ʏᴏᴜ ᴅᴇᴀʟ'
+    - '<white> • ʙʟᴏᴏᴅʟᴜꜱᴛ: ꜱᴘᴇᴇᴅ ɪɪ ᴡʜɪʟᴇ ᴀᴛ 4❤ ᴏʀ ʟᴇꜱꜱ'
+    - ''
+    - <dark_red>[ꜰ] ᴋɪʟʟɪɴɢ ɪɴᴛᴇɴᴛ <dark_gray>(40ꜱ, ɴᴇᴇᴅꜱ 3 ᴋɪʟʟꜱ)
+    - <gray>  ꜰᴏʀ 5ꜱ ᴇᴠᴇʀʏ ʜɪᴛ ɪꜱ ᴀ ᴄʀɪᴛɪᴄᴀʟ ʜɪᴛ (x1.5 ᴅᴀᴍᴀɢᴇ)
+    - <dark_red>[ꜱʜɪꜰᴛ+ꜰ] ᴄʀᴇꜱᴄᴇɴᴛ ꜱʟᴀꜱʜ <dark_gray>(30ꜱ)
+    - '<gray>  ꜰɪʀᴇ ᴀ ʙʟᴏᴏᴅ ᴄʀᴇꜱᴄᴇɴᴛ 15 ʙʟᴏᴄᴋꜱ: 3❤ + ᴡᴇᴀᴋɴᴇꜱꜱ ɪɪ 3ꜱ'
+  flower_sword:
+    enabled: true
+    display-name: <gradient:#8ee2ad:#eda5cf><bold>ꜰʟᴏᴡᴇʀ ꜱᴡᴏʀᴅ</bold></gradient>
+    material: DIAMOND_SWORD
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      fire_aspect: 3
+    lore:
+    - <gray>ᴘᴀꜱꜱɪᴠᴇ
+    - <white> • ʜᴏꜱᴛɪʟᴇ ᴍᴏʙꜱ ᴡɪʟʟ ɴᴏᴛ ᴀᴛᴛᴀᴄᴋ ᴡʜɪʟᴇ ʜᴇʟᴅ
+    - <white> • ᴇᴠᴇʀʏ 5ᴛʜ ᴍᴇʟᴇᴇ ʜɪᴛ ᴘʟᴀᴄᴇꜱ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ, ʙʀᴇᴀᴋᴀʙʟᴇ ᴄᴏʙᴡᴇʙ
+    - <white> • 5ᴛʜ ʜɪᴛ ᴀᴘᴘʟɪᴇꜱ ꜱʟᴏᴡɴᴇꜱꜱ ɪɪ ꜰᴏʀ 3 ꜱᴇᴄᴏɴᴅꜱ
+    - ''
+    - <gradient:#8ee2ad:#eda5cf>[ꜱʜɪꜰᴛ + ʟᴇꜰᴛ-ᴄʟɪᴄᴋ] ꜰʟᴏᴡᴇʀɪɴɢ ꜱᴀɴᴄᴛᴜᴀʀʏ</gradient> <dark_gray>(30ꜱ)
+    - <gray>  ꜱᴛᴀᴛɪᴏɴᴀʀʏ 10ꜱ ꜰʟᴏᴡᴇʀ ꜰɪᴇʟᴅ, 5-ʙʟᴏᴄᴋ ʀᴀᴅɪᴜꜱ
+    - <gray>  ꜱʟᴏᴡꜱ, ʙʟɪɴᴅꜱ ᴀɴᴅ ᴅᴀᴍᴀɢᴇꜱ ᴇɴᴇᴍɪᴇꜱ
+    - <gray>  ɢʀᴀɴᴛꜱ ʀᴇɢᴇɴᴇʀᴀᴛɪᴏɴ ɪɪ ᴡʜɪʟᴇ ɪɴꜱɪᴅᴇ
+    - <dark_gray>ᴄᴀɴɴᴏᴛ ʙᴇ ʀᴇꜰᴏʀɢᴇᴅ ᴏʀ ᴇɴᴄʜᴀɴᴛᴇᴅ ᴀɢᴀɪɴ

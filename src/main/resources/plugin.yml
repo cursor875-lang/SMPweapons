@@ -1,0 +1,17 @@
+name: SMPWeapons
+version: '2.2.0'
+main: dev.smpweapons.SMPWeapons
+api-version: '1.21.11'
+description: Custom weapons, Bloom Hunt, Flowering Sanctuary and WorldGuard region protection.
+depend: [WorldGuard, WorldEdit]
+
+commands:
+  swa:
+    description: SMPWeapons admin tools and event controls.
+    permission: smpweapons.admin
+    usage: /swa help
+
+permissions:
+  smpweapons.admin:
+    description: Access SMPWeapons admin commands.
+    default: op
